@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Study Webaudio WASM</title>
+  </head>
+  <body>
+    <script src="index.js"></script>
+    <button id="play" type="button">play</button>
+    <div>
+        <input type="range" id="primary_input" name="primary_input"
+               min="22" max="106">
+        <label for="primary_input">primary input</label>
+    </div>
+
+    <div>
+      <input type="range" id="fm_freq" name="fm_freq"
+             min="0.2" max="12" step="0.01">
+      <label for="fm_freq">fm freq</label>
+    </div>
+
+    <div>
+      <input type="range" id="fm_amount" name="fm_amount"
+             min="0" max="1" step="0.1">
+      <label for="fm_amount">fm amount</label>
+    </div>
+
+
+  </body>
+</html>
